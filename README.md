@@ -63,3 +63,17 @@ python manage.py migrate
 python manage.py runserver
 ```
    
+## Результат
+Starting development server at http://127.0.0.1:8000/
+<img width="634" height="637" alt="image" src="https://github.com/user-attachments/assets/e49f5832-cd4b-4c05-ab40-8d9db41b62ef" />
+
+http://127.0.0.1:8000/post/1/
+<img width="526" height="445" alt="image" src="https://github.com/user-attachments/assets/7376d379-7c98-4f4a-973b-96156f98c278" />
+
+http://127.0.0.1:8000/post/2/
+<img width="547" height="485" alt="image" src="https://github.com/user-attachments/assets/89cdcf23-a074-4bb5-8f45-230a4d401feb" />
+
+http://127.0.0.1:8000/admin/blog/post/
+<img width="1920" height="718" alt="image" src="https://github.com/user-attachments/assets/d44db547-092a-4422-b90a-c7292749622e" />
+
+
