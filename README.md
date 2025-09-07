@@ -39,3 +39,27 @@ MyBlog-on-Django/
 ├── manage.py                       # Утилита управления Django
 └── main.py                         # Главный исполняемый файл
 ```
+
+## Запуск
+1. Установка Django
+```
+pip install django
+```
+
+2. Создание проекта
+```
+django-admin startproject blog_project .
+```
+3. Создание приложения
+```
+python manage.py startapp blog
+```
+4. Создание миграций
+```
+python manage.py migrate
+```
+5. Запуск приложения
+```
+python manage.py runserver
+```
+   
